@@ -1,0 +1,14 @@
+{
+  "name": "class-routine-app",
+  "version": "1.0.0",
+  "description": "Static HTML Class Routine App",
+  "type": "module",
+  "scripts": {
+    "dev": "serve -p 3000",
+    "build": "rm -rf dist && mkdir -p dist && cp index.html style.css script.js dist/ && cp -r Database dist/",
+    "start": "serve -s dist -l 3000"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

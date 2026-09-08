@@ -1,0 +1,17 @@
+/* Custom styles - mostly handled by Tailwind */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Ensure the root element fills the screen height */
+#root {
+  min-height: 100vh;
+}
+
+/* Hide scrollbars for cleaner mobile view */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

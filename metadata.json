@@ -1,0 +1,6 @@
+{
+  "name": "Class Routine App",
+  "description": "Mobile-first Class Routine App for Golaghat Polytechnic, Furkating",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
